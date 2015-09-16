@@ -1,0 +1,16 @@
+body {
+  background-color:#000000;
+  color:#124455;
+  width:50%;
+}
+#cat span,  a {
+  font-style: underline;
+  color:pink;
+}
+#cat span{
+  top: 0;
+  right: 0;
+}
+span{
+  font-weight: bold;
+}

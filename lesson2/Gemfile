@@ -1,10 +1,6 @@
 source :rubygems
 
-gem 'sinatra'
-gem 'pony'
-gem 'erubis'
-
-
-group :development do
-  gem 'byebug'
-end
+gem "sinatra"
+gem "pony"
+gem "erubis"
+gem 'sinatra-flash'

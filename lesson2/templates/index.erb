@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>web ap</title>
+  </head>
+  <body>
+    <h1>SEND YOUR EMAILS FOR FREE</h1>
+    <div id="message">
+      <%= message %>
+    </div>
+    <div>
+      <form method="post" action="subscribe">
+        <label for="name">Name:</label> <input id="name" name="name" type="text"/>
+        <label for="subject">Subject:</label> <input id="subject" name="subject" type="text"/>
+        <label for="emailaddress">Your E-mail:</label> <input id="emailaddress" name="emailaddress" type="text"/>
+        <label for="body">Type your e-mail in infinite words or less:</label> <textarea id="body" name="body" placeholder="Type Here"></textarea>
+        <input type="submit" value="submarine"/>
+      </form>
+    </div>
+  </body>
+</html>
